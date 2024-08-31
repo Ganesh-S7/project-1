@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--container-->                
+    <div class="container"> 
+        <!--main-header-->
+        <header class="main-header">
+            <!--logo-holder-->
+            <div class="logo-holder">
+                <a href="index.html">
+                    <img src="img/web-logo.jpeg" alt="logo" width="100px" height="auto">
+                </a>
+            </div>
+            <!--search-bar-->
+            <div class="search-holder">
+                <form action="" method="get">
+                <input type="search" name="search" placeholder="search for...">
+                <button type="submit" >search</button>
+                </form>
+            </div>
+        </header>
+            <!--nav-menu-->
+            <nav class="main-menu">
+                <ul class="mobile-menu">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#" class="toggler">+</a></li>
+                </ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Banquets</a>
+                        <ul class="drop">
+                            <li><a href="services-1.html">Banquet one</a></li>
+                            <li><a href="services-2.html">Banquet two</a></li>
+                            <li><a href="services-3.html">Banquet three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Events</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        <!-- about holder-->
+            <section class="about-holder">
+                <artical class="about">
+                    <h1>About us</h1>
+                    <p> Discover the perfect venue for extraordinary occasions at Pai Vista Convention Hall, KR Road. With plush interiors, excellent vegetarian cuisines and professional services, we provide a distinct setting for large weddings, receptions and social gatherings.Pai Vista is a reputable events management company based in Bengaluru, Karnataka, India.
+                        They offer comprehensive catering services for a wide range of events, including weddings, corporate gatherings, social functions, and more.Outdoor Catering: Pai Vista excels in providing outdoor catering services. Whether it’s an open-air wedding, a garden party, or any other outdoor event, they ensure delicious food and impeccable service.
+                        Customized Menus: They offer a variety of menu options, including both vegetarian and non-vegetarian dishes. Clients can customize their menus based on preferences, dietary requirements, and the theme of the event.
+                        Quality and Hygiene: Pai Vista maintains high standards of hygiene and quality in food preparation, presentation, and service.
+                        Experienced Chefs: Their team of experienced chefs prepares a diverse range of cuisines, ensuring a delightful culinary experience for guests.
+                        Professional Staff: Trained waitstaff and service personnel ensure smooth execution during events.
+                        Decor and Setup: Pai Vista can also assist with setting up food stations, buffet arrangements, and decor to enhance the overall dining experience.</p>
+                    <p>Weddings: Pai Vista caters to both intimate and grand weddings, offering a variety of wedding menu packages.
+                        <br>Corporate Events: From conferences to product launches, they provide catering services for corporate gatherings.
+                        <br> Social Functions: Whether its a birthday party, anniversary celebration, or family reunion, Pai Vista ensures memorable dining experiences.
+                        <br>In summary, Pai Vista Events Group is your go-to partner for outdoor food catering services, ensuring that your special occasions are not only well-organized but also gastronomically delightful.
+                        <br>Feel free to reach out if you need further details or have any specific requirements!</p>
+                     </artical>
+            </section>
+
+
+        <!-- about holder-->
+        
+        <!--footer-widget-->
+        <section class="footer-widget-holder">
+            <div class="footer-widget">
+                <a href="index.html">
+                    <img src="img/web-logo.jpeg" alt="logo" width="100px" height="auto">
+                </a>
+                <h3>Address</h3>
+                <address> Pai Vista Convention Hall, KR Road, Opp to Sevakshetra Hospital, Near Monotype, Banashankari 2nd Stage, Bangalore - 560070.</address>
+            </div>
+            <div class="footer-widget">
+                <h4>sitemap</h4>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Banquets</a></li>
+                    <li><a href="products.html">Events</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h4>Follow us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+        </section>
+        <!--site-footer-->
+        <footer class="site-footer">
+            <p><small>Copyrights &copy; 2025</small></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#adaptive').lightSlider({
+            adaptiveHeight:true,
+            item:1,
+            slideMargin:0,
+            loop:true
+        });
+
+            $('.toggler').click(function() {
+            $('.main-menu > ul:nth-of-type(2)').toggle();
+            $('.drop').css({'display': 'block', 'position': 'relative'});
+        });
+    });
+    </script>
+</body>
+</html>
