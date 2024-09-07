@@ -263,8 +263,14 @@ body{
 
 /* Responcive  design */
 @media screen and (max-width: 750px){
+
+    .content-holder,
+    .about-holder{
+        font-size: 60% !important;
+    }
+
     .main-menu{
-        font-size: 80%;
+        font-size: 70%;
     }
 
     #adaptive img{
