@@ -4,13 +4,14 @@
 
 body{
     background-color: aliceblue;
-    margin: 0px;
+    margin: 0 auto;
+    
 } 
 
 .container{
-    max-width: 1300px;
-    min-width: 550px;
-    width: 98%;
+    max-width: 81.25em;
+    min-width: 25em;
+    width: 100%;
     height: auto;
     margin: 10px auto;
     background-color: rgb(229, 245, 249);
@@ -176,14 +177,15 @@ body{
 .products-holder{
     display: grid;
     grid-template-columns: auto auto ;
+    font-size: 60%;
 } 
 
 .service,
 .product{
-    padding: 10px ;
+    padding: 1em ;
     border: 2px solid rgba(252, 249, 198, 0.833);
-    border-radius: 6%;
-    margin: 2px;
+    border-radius: 10%;
+    margin: 0.6em;
     background-color: #faf8c3f7;
 }
 
@@ -191,12 +193,14 @@ body{
 .product a{
    text-decoration: none;
    color: rgb(4, 192, 249);
+   margin-bottom: 1em;
 }
 
 .product img,
 .service img{
     width: 100%;
     height: auto;
+    border-radius:10%;
 }
 /* SERVICES */
 
@@ -259,23 +263,8 @@ body{
 
 /* Responcive  design */
 @media screen and (max-width: 750px){
-/*     .main-header {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    } */
-    .mobile-menu {
-        display: flex !important;
-        justify-content: space-between !important;
-    }
-    .main-menu > ul:nth-of-type(2) {
-        display: none;
-        flex-direction: column;
-        border-top: 1px solid gainsboro;
-    }
-    .drop > li > a {
-        display: block;
-        width: auto;
+    .main-menu{
+        font-size: 80%;
     }
 
     #adaptive img{
@@ -313,4 +302,8 @@ body{
 
     background-color:  rgb(242, 252, 252);
 
+}
+
+.logo-holder > a  >img{
+    width: 70px !important;
 }
