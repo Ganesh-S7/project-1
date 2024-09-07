@@ -279,6 +279,12 @@ body{
     .content-holder .sidebar{
         width: auto;
     }
+    .search-holder form > input[type="search"],
+    .search-holder form > button[type="submit"]{
+        font-size: 60%;
+        padding: 4px !important;
+        
+    }
 
 
 }
