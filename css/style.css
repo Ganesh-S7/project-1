@@ -263,6 +263,24 @@ body{
 
 /* Responcive  design */
 @media screen and (max-width: 750px){
+    /* .main-header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } */
+    /* .mobile-menu {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .main-menu > ul:nth-of-type(2) {
+        display: none;
+        flex-direction: column;
+        border-top: 1px solid gainsboro; */
+    /* }
+    .drop > li > a {
+        display: block;
+        width: auto;
+    } */
 
     .content-holder,
     .about-holder{
@@ -285,6 +303,7 @@ body{
     .content-holder .sidebar{
         width: auto;
     }
+
     .search-holder form > input[type="search"],
     .search-holder form > button[type="submit"]{
         font-size: 60%;
@@ -302,7 +321,7 @@ body{
 }
 
 .service-names{
-    color: rgba(0, 0, 0, 0.639);
+    color: rgba(0, 0, 0, 0.781);
 }
 
 
@@ -318,4 +337,8 @@ body{
 
 .logo-holder > a  >img{
     width: 70px !important;
+}
+
+.tags{
+        padding: 15px ;
 }
