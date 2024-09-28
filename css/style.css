@@ -342,3 +342,11 @@ body{
 .tags{
         padding: 15px ;
 }
+
+/*  navbar fixed navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;   
+}
+
