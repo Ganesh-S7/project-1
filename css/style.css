@@ -177,13 +177,13 @@ body{
 .products-holder{
     display: grid;
     grid-template-columns: auto auto ;
-    font-size: 60%;
+    font-size: 90%;
 } 
 
 .service,
 .product{
     padding: 1em ;
-    border: 2px solid rgba(252, 249, 198, 0.833);
+    border:none;
     border-radius: 10%;
     margin: 0.6em;
     background-color: #faf8c3f7;
@@ -310,6 +310,33 @@ body{
         padding: 4px !important;
         
     }
+
+    .contact-details{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        margin-left: -25px;
+    }
+
+    .contact-form {
+        display: flex;
+        width: 100%;
+      
+    }
+
+    .time-contact {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .services-holder ,
+    .products-holder{
+        display: grid;
+        grid-template-columns: auto auto ;
+        font-size: 60%;
+} 
 
 
 }
