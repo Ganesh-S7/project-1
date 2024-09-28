@@ -342,12 +342,3 @@ body{
 .tags{
         padding: 15px ;
 }
-
-
-/* Style the navbar */
-#navbar {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    /* background-color: #333; */
-}
